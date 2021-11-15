@@ -1,0 +1,41 @@
+	/*body{
+		background: #659999; 
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  
+background: linear-gradient(to right, #f4791f, #659999);*/
+
+	}
+	#bodycolor{
+		background-color:#e2e2e2;
+	}
+	#bg_img{       
+
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,
+		url('https://image.shutterstock.com/image-photo/bowl-buddha-buckwheat-pumpkin-chicken-260nw-1259570605.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+
+	}
+	#name{
+		font-size: 70px;
+
+	}
+  #img{
+  	margin-left: 530px;
+  	padding-top: 55px;
+  	 }
+  	 #intro{
+  	 	background-color: white;
+  	 }
+
+
+   
+
+
+
+
+
+/*
+
+https://tecadvo.com/wp-content/uploads/2020/10/13.jpg
+	

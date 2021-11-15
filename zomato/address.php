@@ -1,0 +1,22 @@
+<?php 
+session_start();
+include 'includes/dbconn.php';
+$user_id = $_SESSION['user_id'];
+$details = $_POST['details'];
+$phone = $_POST['phone'];
+$pincode = $_POST['pincode'];
+$order_id = $_POST['order_id'];
+
+$query = "INSERT INTO `address`(`address_id`, `user_id`, `details`, `phone`, `pincode`) VALUES ('NULL','$user_id','$details','$phone','$pincode')";
+
+if(mysqli_query($conn,$query)){
+	header('Location:profile.php');
+}
+else{
+	echo "Some Error Occoured";
+}
+
+
+
+
+?>
